@@ -1,7 +1,7 @@
 //ANALISIS.
 //Ddefinicion del problema: determinar el mayor y menor de 3 edades solicitadas al usuario.
 //Datos de entrada: edad_1, edad_2, edad_3 como enteros
-//Informacion de salida: "mayor:" edad_1 y "menor:" edad_1 como enteros, Esbribir mayor de edad si corresponde
+//Informacion de salida: "mayor:" edad_1 y "menor:" edad_1 como enteros, Esbribir "es mayor de edad" y "es menor de edad" donde corresponda
 //variables: edad_1, edad_2,edad_3, edad_mayor, edad_menor como enteros
 
 //DISEÑO:

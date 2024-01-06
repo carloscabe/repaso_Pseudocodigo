@@ -2,7 +2,7 @@
 //Ddefinicion del problema: determinar el mayor y menor de 3 edades solicitadas al usuario.
 //Datos de entrada: edad_1, edad_2, edad_3 como enteros
 //Informacion de salida: "mayor:" edad_1 y "menor:" edad_1 como enteros, Esbribir "es mayor de edad" y "es menor de edad" donde corresponda
-//variables: edad_1, edad_2,edad_3, edad_mayor, edad_menor como enteros
+//variables: num_edad1, num_edad2, num_edad3, num_edadmayor, num_edadmenor como enteros
 
 //DISEÑO:
 //Dividir el problema en etapas simples
@@ -18,43 +18,43 @@
 
 
 Algoritmo DefinirEdades
-    Definir edad_1, edad_2, edad_3, edad_mayor, edad_menor Como Entero
+    Definir num_edad1, num_edad2, num_edad3, num_edadmayor, num_edadmenor Como Entero
     
     Escribir 'Ingrese primera edad:'
-    Leer edad_1
+    Leer num_edad1
     Escribir 'Ingrese segunda edad:'
-    Leer edad_2
+    Leer num_edad2
     Escribir 'Ingrese tercera edad:'
-    Leer edad_3
+    Leer num_edad3
     
-    edad_mayor <- edad_1
-    edad_menor <- edad_1
+    num_edadmayor <- num_edad1
+    num_edadmenor <- num_edad1
     
-    Si edad_2 > edad_mayor Entonces
-        edad_mayor <- edad_2
+    Si num_edad2 > num_edadmayor Entonces
+        num_edadmayor <- num_edad2
     Sino
-        Si edad_2 < edad_menor Entonces
-            edad_menor <- edad_2
+        Si num_edad2 < num_edadmenor Entonces
+            num_edadmenor <- num_edad2
         FinSi
     FinSi
     
-    Si edad_3 > edad_mayor Entonces
-        edad_mayor <- edad_3
+    Si num_edad3 > num_edadmayor Entonces
+        num_edadmayor <- num_edad3
     Sino
-        Si edad_3 < edad_menor Entonces
-            edad_menor <- edad_3
+        Si num_edad3 < num_edadmenor Entonces
+            num_edadmenor <- num_edad3
         FinSi
     FinSi
     
-    Escribir 'El mayor es:', edad_mayor
-    Si edad_mayor >= 18 Entonces
+    Escribir 'El mayor es:', num_edadmayor
+    Si num_edadmayor >= 18 Entonces
         Escribir "Es mayor de edad."
     Sino
         Escribir "Es menor de edad."
     FinSi
     
-    Escribir 'El menor es:', edad_menor
-    Si edad_menor >= 18 Entonces
+    Escribir 'El menor es:', num_edadmenor
+    Si num_edadmenor >= 18 Entonces
         Escribir "Es mayor de edad."
     Sino
         Escribir "Es menor de edad."
